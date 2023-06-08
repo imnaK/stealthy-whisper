@@ -23,7 +23,7 @@ Visible message: "Hello, how are you?"
 Hidden message: "Secret message"
 
 ### Output:
-Encoded message: "Hello, how x�£�¢���are you?"
+Encoded message: "Hel⁡⁤⁢⁣⁡⁤​‌⁡⁤​⁣⁡⁤‍⁢⁡⁤​‌⁡⁤‍​⁡​⁠⁡⁤‌‌⁡⁤​‌⁡⁤‍⁣⁡⁤‍⁣⁡⁤​⁤⁡⁤​﻿⁡⁤​‌lo, how are you?"
 
 ## Note
 Please keep in mind that this encoding method is not designed for secure communication or encryption purposes. It is merely a demonstration of hiding a message within another message using basic techniques.
