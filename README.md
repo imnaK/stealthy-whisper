@@ -8,7 +8,6 @@ This is a static website project that allows you to encode a hidden message with
 * Encoded message remains hidden when pasted elsewhere
 
 ## Usage
-
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser.
 3. Enter the visible message in the provided input field.
@@ -29,6 +28,4 @@ Encoded message: "Hel⁡⁤⁢⁣⁡⁤​‌⁡⁤​⁣⁡⁤‍⁢⁡⁤​�
 Please keep in mind that this encoding method is not designed for secure communication or encryption purposes. It is merely a demonstration of hiding a message within another message using basic techniques.
 
 ## License
-The whole idea and logic 
-
 This project is licensed under the MIT License.
