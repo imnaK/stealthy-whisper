@@ -1,6 +1,6 @@
 # Hidden Message Encoder
 
-This is a static website project that allows you to encode a hidden message within a visible one. The hidden message is encoded using octal representation and randomly inserted into the visible message using eight invisible characters. When the encoded message is pasted elsewhere, the hidden message remains concealed.
+This is a static website project that allows you to encode a hidden message within a visible one. The hidden message is encoded using octal representation and randomly inserted into the visible message using eight invisible characters. When the encoded message is pasted elsewhere, the hidden message remains concealed. The concept and logic of this project were inspired by [Traube](https://github.com/Traubi1000101/).
 
 ## Features
 * Encode a hidden message within a visible one
@@ -29,4 +29,6 @@ Encoded message: "Hello, how x�£�¢���are you?"
 Please keep in mind that this encoding method is not designed for secure communication or encryption purposes. It is merely a demonstration of hiding a message within another message using basic techniques.
 
 ## License
+The whole idea and logic 
+
 This project is licensed under the MIT License.
