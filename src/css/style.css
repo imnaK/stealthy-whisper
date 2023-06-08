@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat.ttf");
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ffffff;
+  background-color: #131313;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  background-image: url("../img/18410.svg");
+  background-size: cover;
+  background-color: #131313;
+  background-blend-mode: color-burn;
+}
+
+section {
+  position: relative;
+  padding: 4rem 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: min(70rem, 100%);
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+#main {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem -0.5rem #000;
+  -webkit-backdrop-filter: blur(0.5rem);
+          backdrop-filter: blur(0.5rem);
+  background-color: rgba(42, 40, 43, 0.7490196078);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+#main .wrapper {
+  width: 100%;
+  padding: 1rem;
+}
+#main hr {
+  margin: 0;
+  width: 100%;
+  border: none;
+  display: block;
+  height: 1px;
+  background-color: rgba(76, 75, 78, 0.7490196078);
+}
+#main .header {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select,
+button {
+  cursor: pointer;
+  background-color: #2a282b;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.1s ease-out;
+}
+select:hover,
+button:hover {
+  background-color: #4c4b4e;
+}
+
+.iwl-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.iwl-wrapper .iwl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.iwl-wrapper .iwl > *:first-child {
+  flex: 1;
+}
+.iwl-wrapper .iwl label {
+  color: rgba(161, 158, 169, 0.7490196078);
+}
+.iwl-wrapper .iwl button {
+  text-transform: capitalize;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+input {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(161, 158, 169, 0.7490196078);
+  padding: 0.5rem;
+  width: 100%;
+  transition: all 0.1s ease-out;
+}
+input:focus {
+  border-bottom: 1px solid #ffffff;
+}
+input:focus + label {
+  color: #c25628;
+}/*# sourceMappingURL=style.css.map */
